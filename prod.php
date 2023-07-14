@@ -65,10 +65,14 @@
     <div class="page-header page-header-small" filter-color="green">
       <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-2.jpg')"></div>
       <div class="container">
+      <div class="content-center"><img src=" <?php echo $row["image_url"]; ?> ">
       <div class="h4 mt-0 title" style="margin-top: 50px;"> <?php echo $row["name"]; ?> </div>
-      <div class="content-center"><img src=" <?php echo $row["image_url"]; ?> "></div>
+      </div>
+
     </div>
+
     </div>
+
 </div>
 
 <div class="section" id="about">
